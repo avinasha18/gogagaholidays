@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="css/flight.css">
+</head>
+<body>
+
+<section class="banner" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="left-content">
+                <div class="left-side">
+                    <div class="logo">
+                        Gogaga Holidays
+                    </div>
+                    <div class="tabs-content">
+                        <h2>Heading to Book Tickets</h2>
+                        <p>Welcome to Gogoga Holidays! Find the best flight deals for your next adventure.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-content">
+                <section id="first-tab-group" class="tabgroup">
+                    <div id="tab1">
+                        <div class="submit-form">
+                            <h2 class="form-heading">Check Availability</h2>
+                            <form id="form-submit" action="" method="get">
+                                <label for="from">From:</label>
+                                <select required name='from'>
+                                    <option value="">Select departure...</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                 
+                                </select>
+        
+                                <label for="to">To:</label>
+                                <select required name='to'>
+                                    <option value="">Select destination...</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                  
+                                </select>
+        
+                                <label for="departure">Departure Date:</label>
+                                <input name="departure" type="date" class="form-control date" id="departure" required>
+        
+                                <label for="return">Return Date:</label>
+                                <input name="return" type="date" class="form-control date" id="return" required>
+        
+                                <div class="radio-select">
+                                    <input type="radio" name="trip" id="round" value="round" required>
+                                    <label for="round">Round Trip</label>
+                                    <input type="radio" name="trip" id="oneway" value="one-way" required>
+                                    <label for="oneway">One Way</label>
+                                </div>
+        
+                                <button type="submit" id="form-submit">Search Flights</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="flight-grid">
+    <div class="container">
+        <h2>Available Flights</h2>
+        <div class="flight-list">
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+            <div class="flight-item">
+                <div class="flight-details">
+                    <h3>Flight from USA to India</h3>
+                    <p>Departure: 15/3/2024</p>
+                    <p>Return: 18/3/2024</p>
+                    <p>Price: $450</p>
+                </div>
+                <button class="btn-book">Book Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
